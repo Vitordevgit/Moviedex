@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CardMovie from "@/components/ui/cardMovie";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
         <p className="text-2xl font-bold text-secondary">
           Tudo isso sem anúncios.
         </p>
+        <CardMovie />
       </div>
     </div>
   );
